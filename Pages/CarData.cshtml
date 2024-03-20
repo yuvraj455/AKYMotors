@@ -1,0 +1,30 @@
+﻿@page
+@model AKY_Motors_Assignment2.Pages.CarDataModel
+@{
+    ViewData["Title"] = "Car Data"; // Set the title of the page
+}
+
+<h1>Car Data</h1> <!-- Display heading for the car data page -->
+
+<div class="row">
+    @foreach (var car in Model.Cars)
+    {
+        <div class="col-md-4 mb-3">
+            <!-- Bootstrap grid column -->
+            <div class="card" style="background-color: #262626">
+                <!-- Styling for the card -->
+                <div class="card-img-container">
+                    <!-- Container for the card image -->
+                    <img src="@car.Image" class="card-img-top" alt="@($"{car.Make} {car.Model}")"> <!-- Display car image -->
+                </div>
+                <div class="card-body" style="color: white">
+                    <!-- Styling for the card body -->
+                    <h5 class="card-title">@($"{car.Make} {car.Model}")</h5> <!-- Display car make and model -->
+                    <p class="card-text">Year: @car.Year <br />
+                        Price: $@car.Price
+                    </p> <!-- Display car year and price -->
+                </div>
+            </div>
+        </div>
+    }
+</div>

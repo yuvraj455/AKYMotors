@@ -1,0 +1,65 @@
+[
+  {
+    "make": "Rolls Royce",
+    "model": "Wraith",
+    "year": 2022,
+    "image": "https://i.ytimg.com/vi/4JsB7mUMlaA/maxresdefault.jpg",
+    "price": 330000
+  },
+  {
+    "make": "Bugatti",
+    "model": "Veyron",
+    "year": 2021,
+    "image": "https://www.carscoops.com/wp-content/uploads/2020/09/Bugatti-Veyron-1a-1024x555.jpg",
+    "price": 2000000
+  },
+  {
+    "make": "Jaguar",
+    "model": "F-TYPE R-75",
+    "year": 2024,
+    "image": "https://media.ed.edmunds-media.com/jaguar/f-type/2024/oem/2024_jaguar_f-type_coupe_p575-r75_fq_oem_1_1280.jpg",
+    "price": 105000
+  },
+  {
+    "make": "Audi",
+    "model": "RS e-tron GT",
+    "year": 2024,
+    "image": "https://www.audi.ca/content/dam/nemo/us/models/e-tron/rs-e-tron-gt/my24/1920x1920_MY24---RS-e-tron-GT---Front---Driving.jpg?imwidth=768&imdensity=1",
+    "price": 139000
+  },
+  {
+    "make": "BMW",
+    "model": "230i xDrive Coupe",
+    "year": 2024,
+    "image": "https://di-uploads-pod44.dealerinspire.com/bmwofmilwaukeenorth/uploads/2022/07/2021-BMW-2-Series-Gran-Coupe.jpg",
+    "price": 45000
+  },
+  {
+    "make": "Aston Martin",
+    "model": "DB12",
+    "year": 2023,
+    "image": "https://images.pistonheads.com/nimg/48011/blobid0.jpg",
+    "price": 310000
+  },
+  {
+    "make": "Mercedes Benz",
+    "model": "AMG GT-4 Door Coupe",
+    "year": 2023,
+    "image": "https://images.7news.com.au/publication/C-9606486/bb2e35236f3aa9f9f1058b5a2b6149bdeff679a6-16x9-x0y112w5795h3260.jpg",
+    "price": 135000
+  },
+  {
+    "make": "Lamborghini",
+    "model": "Aventador",
+    "year": 2023,
+    "image": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2021/07_06_ultimae/ultimae_01.jpg",
+    "price": 417000
+  },
+  {
+    "make": "McLaren",
+    "model": "650s GT3",
+    "year": 2021,
+    "image": "https://cdna.artstation.com/p/assets/images/images/029/038/110/large/milx-kambari-ready.jpg?1596262974",
+    "price": 300000
+  }
+]

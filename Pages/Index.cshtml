@@ -1,0 +1,52 @@
+﻿@page
+@model IndexModel
+@{
+    // Set the title of the page
+    ViewData["Title"] = "Home page";
+}
+<style>
+    /* Style for the main content section */
+    .text-center {
+        height: 80vh; /* Set height to occupy 80% of the viewport height */
+        color: white; /* Set text color to white */
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Specify font family */
+        background-image: url(https://wallpapercave.com/wp/wp9837380.jpg); /* Set background image */
+        background-size: cover; /* Cover entire background */
+        background-position: center; /* Center the background image */
+    }
+
+    /* Define hover effect for heading level 5 */
+    h5:hover {
+        background-color: darkgoldenrod; /* Change background color on hover */
+        border-radius: 10px; /* Add rounded corners */
+    }
+</style>
+
+<div class="text-center">
+    <!-- Main content section -->
+    <h1 class="display-4">Welcome to AKY Motors</h1> <!-- Display large heading -->
+    <h3>Drive your Dream Car Today</h3> <!-- Display subheading -->
+    <a asp-page="/CarData" style="text-decoration: none"><h5>Explore the Cars</h5></a> <!-- Link to car data page -->
+    <br />
+    <!-- Description of the project -->
+    <p>
+        This project showcases our proficiency in ASP.NET Core MVC practices.
+        It utilizes data from a JSON file named "cars.json" to display information
+        about different cars on a webpage. The displayed information includes the
+        make, model, and year of each car, along with corresponding images
+        fetched dynamically.
+    </p>
+
+    <br />
+
+    <!-- List of tools/software/languages used -->
+    <h6 style="text-align: left">The Tools/Software/Languages used for the completion of project:</h6>
+    <ul style="text-align: left">
+        <li>Microsoft Visual Studio 2022</li>
+        <li>ASP.NET</li>
+        <li>C#</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javscript</li>
+    </ul>
+</div>

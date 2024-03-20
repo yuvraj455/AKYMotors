@@ -1,0 +1,64 @@
+/* Set base font size to 14px for better readability */
+html {
+    font-size: 14px;
+}
+
+/* Increase font size for larger screens */
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+/* Define focus styles for various interactive elements */
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb; /* Add focus effect */
+}
+
+/* Set minimum height of HTML to ensure content fills the screen */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+/* Set background color of body to black */
+body {
+    background-color: black;
+}
+
+/* Center-align and style heading level 1 */
+h1 {
+    text-align: center;
+    color: white; /* Set color to white */
+}
+
+/* Define container for card image */
+.card-img-container {
+    justify-content: center; /* Center align content */
+    width: 414px; /* Set width */
+    height: 200px; /* Set height */
+    justify-content: center; /* Center align content */
+    align-items: center; /* Center align items */
+    overflow: hidden; /* Hide overflow */
+}
+
+    /* Style image within card image container */
+    .card-img-container img {
+        width: 414px; /* Set width */
+        height: 200px; /* Set height */
+        justify-content: center; /* Center align content */
+        align-items: center; /* Center align items */
+        object-fit: cover; /* Scale image to cover container */
+    }
+
+/* Define hover effect for heading level 3 and list items */
+h3:hover,
+li:hover {
+    background-color: goldenrod; /* Change background color on hover */
+    border-radius: 10px; /* Add rounded corners */
+    text-transform: uppercase; /* Convert text to uppercase on hover */
+}

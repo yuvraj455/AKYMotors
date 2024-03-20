@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\AKY_Motors_Assignment2.props" />
+</Project>
